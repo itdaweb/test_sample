@@ -41,6 +41,132 @@
   min-height: 64rem;
 }
 
+/* equipment-sec */
+
+.swiper02{
+  overflow: hidden;
+}
+
+.equipment-sec {
+  padding: 8rem 0;
+  position: relative;
+}
+.swiper-button-next:after{
+  margin-right: 10rem;
+}
+.equipment-sec .container-wrap{
+  overflow: hidden;
+}
+
+.equipment-sec .equipment-desc h3{
+  font-size: 2.4rem;
+  margin: 2rem 0 1rem;
+}
+
+.equipment-sec .equipment-desc p{
+  font-size: 1.8rem;
+}
+
+.swiper02 .swiper-slide{
+  flex-direction: column;
+}
+
+/* examination-sec */
+.examination-sec{
+  padding: 8rem 0;
+}
+.examination-sec .examination-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:5rem;
+  max-width: 120rem;
+  width: 100%;
+  margin: 0 auto;
+}
+.examination-sec .examination-wrap .examination-item{
+  width: 30%;
+  text-align: center;
+}
+.examination-sec .examination-wrap .examination-item .ev_hover{
+  display: none;
+}
+
+.examination-sec .examination-wrap .examination-item:hover img{
+  display: none;
+}
+
+.examination-sec .examination-wrap .examination-item:hover img.ev_hover{
+  display: inline-block;
+}
+
+/* tour-sec */
+
+.tour-swiper{
+  display: flex;
+  align-items: center;
+  padding-bottom: 8rem;
+}
+
+.mySwiper3{
+  width: 50%;
+  padding-left: 10rem;
+}
+
+.mySwiper4{
+  width: 50%;
+}
+
+.tour-sec .tour-wrap h2{
+  font-size: 4.2rem;
+  margin-bottom: 4rem;
+  padding-bottom: 4rem;
+  position: relative;
+}
+
+.tour-sec .tour-wrap h2::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4rem;
+  height: 1px;
+  background: #333;
+}
+
+.tour-sec .tour-wrap h2 span{
+  font-weight: 400;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.tour-sec .tour-wrap p{
+  font-size: 2rem;
+  margin-bottom: 8rem;
+}
+
+.tour-sec .tour-wrap .btn{
+  margin-bottom: 8rem;
+}
+
+.tour-swiper .swiper-slide img{
+  max-height: 85rem;
+}
+
+.mySwiper3 .swiper-slide img{
+  max-height: 10rem;
+}
+
+.mySwiper3 .swiper-slide{
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.mySwiper3 .swiper-slide-thumb-active{
+  opacity: 1;
+}
+
 
 @media (max-width:1440px){
 
